@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <div class="intro">
+        <h1 id="game-title">Rock, Paper & Scissors Game</h1>
+        <button id="reveal-btn">Let's Play!</button>
+    </div>
+
+    <section class="hidden" id="container">
+        <div class="inner-container">
+        <header>
+            <h1 id="game-title">Rock, Paper & Scissors</h1>
+        </header>
+
+        <section class="Button">
+            <button id="button" class="change-btn">Change the actions</button>
+        </section>
+    <div class="players-container">
+        <section class="player-container">
+            <img src="./assets/Player-scissors.png" alt="Player's current choice" class="image" id="player-image">
+            <h3 id="player-info" class="Players-turn">Player</h3>
+        </section>
+
+        <section class="opponent-container">
+            <img src="./assets/Opponent-rock.png" alt="Opponent's current choice" class="image" id="opponent-image">
+            <h3 id="opponent-turn" class="Opponents-turn">Opponent</h3>
+        </section>
+    </div>
+
+        <div class="Result">
+            <h2 id="result">Result</h2>
+        </div>
+    </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
